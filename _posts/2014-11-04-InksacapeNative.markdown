@@ -17,3 +17,4 @@ Inkscape 无疑是**开源免费**的矢量图绘制软件中的王者，与GIMP
 ![inkscape91.png](/public/images/inkscape91.png)
 更新： Inkscape的开发组已经提供了测试版的原生Inkscape，可以到这个Dropbox文件夹下载[https://www.dropbox.com/sh/b7tyrnugif2ywqj/qpMx1ygywo](https://www.dropbox.com/sh/b7tyrnugif2ywqj/qpMx1ygywo)，按照官方说法这个文件夹长期有效，一般来说一周会发布一个更新的编译版本。用Mac OS版的Inkscape也能用上周更版的，真是不错呀！不过由于是周更非稳定版，使用的时候还是要多保存，免得数据丢失哦！
 
+再更新：这回更新的这个地址看起来应该是一直可用了吧！[https://inkscape.org/en/~su_v](https://inkscape.org/en/~su_v)，打开之后点击osxmenu r后面数字最大的那个文件夹，下载其中的dmg即可。
