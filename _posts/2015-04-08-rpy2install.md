@@ -44,3 +44,7 @@ tags:
 	Run `python setup.py install` as your wish.
 
 Finally, if you do not want compile `rpy2`. There is a package named `pyper` written by Xia. The package is quite light-weighted and well-written. If you do not want heavily use of R in python, but only make a few communication, `pyper` is the right choice to go.
+
+BTW, I found many people are not installed rpy2 successfully due to their tool chain. If you are absolutely new to Python, or never build package from source, you should probably first start up a suitable tool chain before trying to build other package. You can download a sample Cython file to test your tool chain. Normally, a suitable tool chain can compile regular Cython files. You will also need fortran compiler for some packages.
+
+ 
