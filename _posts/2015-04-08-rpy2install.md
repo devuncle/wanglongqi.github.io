@@ -43,3 +43,4 @@ tags:
 
 	Run `python setup.py install` as your wish.
 
+Finally, if you do not want compile `rpy2`. There is a package named `pyper` written by Xia. The package is quite light-weighted and well-written. If you do not want heavily use of R in python, but only make a few communication, `pyper` is the right choice to go.
