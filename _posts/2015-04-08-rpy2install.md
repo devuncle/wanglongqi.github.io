@@ -37,7 +37,7 @@ You can compile and install rpy2 under Windows by following this article.
 
 4. Pass r-home when build rpy2
 
-	python setup.py build --r-home C:\PROGRA~1\R\R-31~1.2
+	`python setup.py build --r-home C:\PROGRA~1\R\R-31~1.2`
 
 5. Done. 
 
