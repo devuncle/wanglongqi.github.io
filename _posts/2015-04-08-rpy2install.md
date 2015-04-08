@@ -16,22 +16,22 @@ You can compile and install rpy2 under Windows by following this article.
 
 1. Change `unixcompiler.py`
 
-Change following codes in `unixcompiler.py` under `distutils` folder.
+	Change following codes in `unixcompiler.py` under `distutils` folder.
 
-    compiler = os.path.basename(sysconfig.get_config_var("CC"))
-    if sys.platform[:6] == "darwin":
+	    compiler = os.path.basename(sysconfig.get_config_var("CC"))
+	    if sys.platform[:6] == "darwin":
 
-Search for similar code in the file, and change these lines to:
+	Search for similar code in the file, and change these lines to:
 
-    #compiler = os.path.basename(sysconfig.get_config_var("CC"))
-    compiler = 'gcc'
-    if sys.platform[:6] == "darwin":
+	    #compiler = os.path.basename(sysconfig.get_config_var("CC"))
+	    compiler = 'gcc'
+	    if sys.platform[:6] == "darwin":
 
-Yes, we simply bypass the command, and give the right answer.
+	Yes, we simply bypass the command, and give the right answer.
 
 2. Set R_HOME and R_USER
 
-The default installation the R_HOME is `C:\PROGRA~1\R\R-31~1.2`.
+	The default installation the R_HOME is `C:\PROGRA~1\R\R-31~1.2`.
 
 3. pip install singledispatch
 
@@ -41,5 +41,5 @@ The default installation the R_HOME is `C:\PROGRA~1\R\R-31~1.2`.
 
 5. Done. 
 
-Run `python setup.py install` as your wish.
+	Run `python setup.py install` as your wish.
 
