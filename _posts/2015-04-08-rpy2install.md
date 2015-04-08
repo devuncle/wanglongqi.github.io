@@ -12,7 +12,7 @@ tags:
 - Rpy2
 - Mingw32
 ---
-You can compile and install rpy2 under Windows by following this article.
+[Christoph Gohlke](http://www.lfd.uci.edu/~gohlke/pythonlibs/#rpy2) provides a page to release unofficial binaries of python packages. However, for `rpy2` and `pycuda` you may have to use exactly the same version of `R` or `cuda toolkit` to use the binary. Therefore, if you do not want to use that version, you may have to compile the package yourself. For the case of `rpy2`, the process is quite simple. Since the offical `rpy2` site does not offer any suggestion on howto build it under Windows, you can compile and install `rpy2` under Windows by following this article.
 
 1. Change `unixcompiler.py`
 
