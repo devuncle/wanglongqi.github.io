@@ -25,6 +25,9 @@ tags:
 1. [pandas.chm](https://wanglongqi.github.io/public/chms/pandas.chm)
 1. [PySpectrum.chm](https://wanglongqi.github.io/public/chms/Spectrum.chm)
 
+2015-04-17 更新：
+- 最近更新了大部分的文档，比如：Scipy，Pandas和Sklearn。
+
 2014-12-02 更新：
 - 添加了epub版本的文件， [一些常用Python库的epub帮助文件]({% post_url 2014-12-02-epubs %})
 
