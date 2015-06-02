@@ -17,5 +17,6 @@ tags:
 用惯了ColorBrewer的配色方案，而Mathematica里没有现成的支持。所以最好的办法就是自己做一个了，因此就写了一个ColorBrewer的包，用于支持Mathematica中使用ColorBrewer的需求。具体的情况可以参见项目的主页，这里就不过多介绍了。
 
 程序包可以生成Palette，也可以生成ColorFunction，还可以显示Palette（这个是我感觉比其他ColorBrewer库方便的地方，Mathematica里可以直接看到Palette的颜色，直接从里面直观的选取。其他语言的库都很难提供类似的功能，即使提供了也没有Mathematica那么统一的显示和使用方法。）
-![Palette](/public/images/display.png)
 
+![Palette](/public/images/display.png)
+![PaletteDiv](/public/images/div.png)
