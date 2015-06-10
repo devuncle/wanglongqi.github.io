@@ -1,0 +1,21 @@
+---
+author: Longqi
+comments: true
+date: 2015-06-04 09:15:03
+layout: post
+slug: writetexmac
+title: A short note about WriteTeX on MAC OSX
+categories: [Inkscape]
+tags:
+- Inkscape
+- WriteTeX
+---
+![macwritetex](/public/images/macwritetex.png)
+I have waited for `pdf2svg` or `pstoedit` to release a binary version for MAC OSX for a very long time until yesterday I was so disappointed and tried to solve it myself. I finally figured out a way to use `WriteTeX` in MAC OSX without `fink` installed. I upload a binary version of pstoedit for Mac OSX binary into the repository of `WriteTeX`, which is depending on [Inkscape of this version]({% post_url 2014-11-04-InksacapeNative %}) installed in default location (Drag the app into your `Applications` folder). If you have no problem with these settings and you have the administrator privilege, then here is a solution for you.
+
+1. Download the binary from [https://github.com/wanglongqi/WriteTeX/raw/master/pstoedit.zip](https://github.com/wanglongqi/WriteTeX/raw/master/pstoedit.zip) and unzip it.
+2. Copy all the files to /usr/bin
+3. Copy WriteTeX plugin to `/Applications/Inkscape.app/Contents/Resources/share/inkscape/extensions`
+4. Start Inkscape to use WriteTeX
+
+Hope you like it!
