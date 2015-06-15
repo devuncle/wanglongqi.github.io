@@ -10,7 +10,7 @@ tags:
 - Sympy
 - Python
 ---
-
+![Python](/public/images/python.png)
 Sympy geometry module does not offer function to calculate second moments of area of an arbitrary polygon. However, the algorithm to calculate the moments are quite simple. I simply post the codes for calculating second moments of area here for those who maybe interested in this function.
 
 {% highlight python %}
