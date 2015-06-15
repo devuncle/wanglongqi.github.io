@@ -11,6 +11,7 @@ tags:
 - WriteTeX
 - pstoedit
 ---
+![macosx](/public/images/macosx.png)
 	pstoedit: version 3.70 / DLL interface 108 (built: Jun 12 2015 - release build - g++ 4.2.1 Compatible Apple LLVM 6.1.0 (clang-602.0.53) - 64-bit) : Copyright (C) 1993 - 2014 Wolfgang Glunz
 	No output format specified (-f option) and format could not be deduced from suffix of output file since no output file name was given
 	Usage: "pstoedit -f format inputfile outputfile" or run "pstoedit -help" to get a complete list available options.
