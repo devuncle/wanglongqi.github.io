@@ -48,4 +48,12 @@ Finally, if you do not want compile `rpy2`. There is a package named `pyper` wri
 
 BTW, I found many people are not installed rpy2 successfully due to their tool chain. If you are absolutely new to Python, or never build package from source, you should probably first start up a suitable tool chain before trying to build other package. You can download a sample Cython file to test your tool chain. Normally, a suitable tool chain can compile regular Cython files. You will also need fortran compiler for some packages.
 
+## Updates
+I reinstall Python, and the patch described here is not working for the latest rpy2. I have checked the method is working fluently with rpy2-2.5.6, but not rpy2-2.6.*. [The issue](https://bitbucket.org/rpy2/rpy2/issues/261/installation-compilation-error-on-windows) has been reported to the developer half years ago, and it seems there is no way to solve the problem. If someone do want to compile rpy2-2.6 on Windows, remove the [`ResetConsole`](http://www.nudoq.org/#!/Packages/R.NET/RDotNet/ICharacterDevice/M/ResetConsole) line from the source is a must. I do not check by removing this line what functionality will be affected, but you can compile the package without it. If you run into link error of Python library, simply generate `libpython27.a` using `dlltool`. If you do not know what to do, may a search you will find many related posts.
+
+I personally do not use rpy2 recently. If someone interested in the `ResetConsole`, please dig into the problem, and leave a comment below or in the issue report.
+
+LAST words, `rpy2` are not designed to be running on Windows. If you really want to use it, switch to Mac or Linux is a better choice.
+
+
  
