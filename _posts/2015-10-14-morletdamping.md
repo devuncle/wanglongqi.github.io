@@ -10,5 +10,5 @@ tags:
 - Dynamics
 - Python
 ---
-最近用Python实现了一个基于Morlet-wave的阻尼识别方法，项目已经开源托管在Github上。有兴趣的读者可以到[https://github.com/wanglongqi/MorletDamping](https://github.com/wanglongqi/MorletDamping)。程序的主要算法逻辑和公式已经实现完成，还有一些细节的实现部分需要调整，有兴趣的读者可以自行调整。
+最近用Python实现了一个基于Morlet-wave的阻尼识别方法，项目已经开源托管在Github上。有兴趣的读者可以到[https://goo.gl/veAFGE](https://goo.gl/veAFGE)查看。程序的主要算法逻辑和公式已经实现完成，还有一些细节的实现部分需要调整，有兴趣的读者可以自行调整。
 
