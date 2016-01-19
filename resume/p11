@@ -1,0 +1,25 @@
+<div id="single-portfolio">
+	<div id="portfolio-details" class="container">
+		<a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+		<div class="row">
+			<div class="col-sm-9">
+				<div class="project-info">
+					<h3>多孔介质的网格生成</h3>
+					<ul>
+<li><p>调研了多孔介质的特性，改进了材料网格的生成算法。</p></li>
+<li><p>将Linux下的网格生成程序改编为Windows下的可执行文件。</p></li>
+</ul>
+
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="project-details">
+					<h3>项目详情</h3>
+					<p><span>合作方： </span></p>
+					<p><span>时间：</span> 2006/02 ~ 2006/09</p>
+					<p><span>标签：</span> </p>
+				</div>  
+			</div>
+		</div>
+	</div>
+</div>

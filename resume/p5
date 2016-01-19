@@ -1,0 +1,25 @@
+<div id="single-portfolio">
+	<div id="portfolio-details" class="container">
+		<a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+		<div class="row">
+			<div class="col-sm-9">
+				<div class="project-info">
+					<h3>某型火箭构件的参数化仿真分析</h3>
+					<ul>
+<li><p>编写了<strong>千余行</strong>参数化建模语言APDL代码；完成了<strong>构件</strong>的有限元<strong>建模</strong>及仿真<strong>分析</strong>。</p></li>
+<li><p>仿真计算结果与其他商业有限元软件的计算结果<strong>吻合良好</strong>。</p></li>
+</ul>
+
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="project-details">
+					<h3>项目详情</h3>
+					<p><span>合作方： </span></p>
+					<p><span>时间：</span> 2010/01 ~2010/02</p>
+					<p><span>标签：</span> </p>
+				</div>  
+			</div>
+		</div>
+	</div>
+</div>

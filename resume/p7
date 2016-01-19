@@ -1,0 +1,30 @@
+<div id="single-portfolio">
+	<div id="portfolio-details" class="container">
+		<a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+		<div class="row">
+			<div class="col-sm-9">
+				<div class="project-info">
+					<h3>基于动态数据的桥梁健康监测方法（硕士课题）</h3>
+					<ul>
+<li><p>推导并发展了一套基于实测数据的<strong>集成式</strong>健康监测方法。</p></li>
+<li><p>维护并扩展了约<strong>12万行的大型</strong>健康监测程序MFA。</p></li>
+<li><p>MFA集成了有限元动静态分析、结构热力耦合分析、灵敏度分析、<strong>传感器优化配置</strong>、<strong>误差更新</strong>、<strong>贝叶斯估计</strong>和<strong>扩展贝叶斯估计</strong>等功能</p></li>
+<li><p>MFA<strong>定义</strong>了一套健康监测的<strong>领域相关语言</strong>，可高效构建复杂的健康监测算法</p></li>
+<li><p>MFA充分运用了FORTRAN 90/95<strong>基于对象</strong>的程序设计思想</p></li>
+<li><p>程序在石崆山大桥实测数据中获得了与实际情况<strong>良好的印证</strong>。</p></li>
+<li><p>课题组将MFA程序运用到<strong>卫星天线的热致振动抑制</strong>问题上获得了良好的效果。</p></li>
+</ul>
+
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="project-details">
+					<h3>项目详情</h3>
+					<p><span>合作方： </span></p>
+					<p><span>时间：</span> 2009/09 ~ 2010/08</p>
+					<p><span>标签：</span> </p>
+				</div>  
+			</div>
+		</div>
+	</div>
+</div>

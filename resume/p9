@@ -1,0 +1,31 @@
+<div id="single-portfolio">
+	<div id="portfolio-details" class="container">
+		<a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+		<div class="row">
+			<div class="col-sm-9">
+				<div class="project-info">
+					<h3>国标JB4732数据逼近程序DataY（本科毕业设计）</h3>
+					<ul>
+<li><p>使用MATLAB解决了超大开孔率圆柱交贯线区域<strong>网格划分不规则</strong>的问题。</p></li>
+<li><p>使用ANSYS完成了<strong>国标JB2732</strong>薄壳理论解在超大开孔率下的有限元校验工作。</p></li>
+<li><p>基于MFC开发了<strong>两万余行C++</strong>代码的<strong>国标JB4732数据逼近程序</strong>DataY。</p></li>
+<li><p>使用基于<strong>样条</strong>拟合和<strong>多项式</strong>拟合的<strong>多维数据</strong>逼近算法</p></li>
+<li><p>逼近结果可<strong>精确到小数点后两位</strong></p></li>
+<li><p>程序可直接生成可最终使用的<strong>分析报告</strong></p></li>
+<li><p>程序使用<strong>MFC</strong>实现交互界面，基于<strong>HTML+CSS</strong>完成文档的编制</p></li>
+<li><p><strong>毕业论文被评为清华大学优秀毕业论文</strong>。</p></li>
+</ul>
+
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="project-details">
+					<h3>项目详情</h3>
+					<p><span>合作方： </span></p>
+					<p><span>时间：</span> 2008/04 ~ 2008/07</p>
+					<p><span>标签：</span> </p>
+				</div>  
+			</div>
+		</div>
+	</div>
+</div>

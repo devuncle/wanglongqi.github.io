@@ -1,0 +1,39 @@
+<div id="single-portfolio">
+	<div id="portfolio-details" class="container">
+		<a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+		<div class="row">
+			<div class="col-sm-9">
+				<div class="project-info">
+					<h3>基于敲击数据的大铁与高铁扣件松脱监测</h3>
+					<ul>
+<li><p><strong>搭建了</strong>钢轨扣件松脱实验<strong>平台</strong>；<strong>主持了</strong>在宝鸡、廊坊等地的<strong>场地试验</strong>；作为<strong>唯一</strong>技术人员带领试验小队到场地完成了试验的测试、分析、计划工作。</p></li>
+<li><p>编写了场地试验的试验计划，完成了<strong>近万行</strong>试验数据的<strong>分析处理程序</strong>，其功能包括：</p></li>
+<ul> 
+<li>
+<p><strong>信号预处理</strong>，诸如数据预处理，滤波与零漂修正等</p>
+</li>
+<li>
+<p><strong>特征提取</strong>，诸如时频分析，距离或相似度计算等</p>
+</li>
+<li>
+<p><strong>数据降维</strong>，诸如PCA，SVD等</p>
+</li>
+<li>
+<p><strong>聚类分析</strong>和<strong>奇异值检测</strong></p>
+</li> </ul>
+<li><p>完成了钢轨扣件松脱<strong>原型机设计</strong>与<strong>检测程序</strong>编制。</p></li>
+</ul>
+
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="project-details">
+					<h3>项目详情</h3>
+					<p><span>合作方： </span></p>
+					<p><span>时间：</span> 2010/03 ~ 2011/07</p>
+					<p><span>标签：</span> </p>
+				</div>  
+			</div>
+		</div>
+	</div>
+</div>

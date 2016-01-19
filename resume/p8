@@ -1,0 +1,25 @@
+<div id="single-portfolio">
+	<div id="portfolio-details" class="container">
+		<a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+		<div class="row">
+			<div class="col-sm-9">
+				<div class="project-info">
+					<h3>特种检测报告的自动生成程序</h3>
+					<ul>
+<li><p>开发了一套将Excle数据表格转换为Word格式特种检测报告的<strong>办公自动化</strong>程序。</p></li>
+<li><p>程序基于<strong>PyQt</strong>和Office套件的<strong>COM</strong>接口实现，总代码量<strong>仅三千余行</strong>Python代码。</p></li>
+</ul>
+
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="project-details">
+					<h3>项目详情</h3>
+					<p><span>合作方： </span></p>
+					<p><span>时间：</span> 2009/04 ~ 2009/07</p>
+					<p><span>标签：</span> </p>
+				</div>  
+			</div>
+		</div>
+	</div>
+</div>
