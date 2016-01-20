@@ -31,7 +31,6 @@
               <h1 class="animated fadeInLeftBig">欢迎阅读您<br/><span>我的简历</span></h1>
               <p class="animated fadeInRightBig">基本信息 - 项目经历 - 个人技能 - 其他信息</p>
               <a data-scroll class="btn btn-start animated fadeInUpBig" href="#general-info">开始阅读</a>
-              <p id="wx" class="animated fadeInUpBig" style="padding-top:15px; font-size:60%; color:#aaa">微信内置浏览器效率低下，请使用自带浏览器查看该网页</p>
             </div>
           </div>
         </div>
@@ -599,6 +598,21 @@
     <script src="//static.getclicky.com/js" type="text/javascript"></script>
     <script type="text/javascript">try{ clicky.init(100788619); }catch(e){}</script>
     <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100788619ns.gif" /></p></noscript>
+    <script>
+      function is_mobileQQ() {
+        var ua = navigator.userAgent.toLowerCase();
+        if (ua.match(/micromessenger/)) {
+          return true;
+        } else {
+          return false;
+        }
+      }
+      $(document).ready(function (){
+       if(is_mobileQQ()){
+          $("body").html(" <p style='text-align:center; font-size:18px; margin:20px auto'>微信内置浏览器效率低下<br/>请按下图步骤使用自带浏览器查看该网页 <br/><img src='images/wx.png' style='margin: 20px auto'/></p>");
+        }
+      })
+    </script>
 
   </body>
   </html>
