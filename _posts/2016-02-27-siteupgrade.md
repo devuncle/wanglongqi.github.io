@@ -1,5 +1,5 @@
 ---
-author: YiZi
+author: Longqi
 comments: true
 date: 2016-02-27 00:02:22
 layout: post
@@ -7,7 +7,6 @@ slug: SiteUpgrade
 title: 重大消息：网站升级了！
 categories: [System]
 tags:
-- Website
 - Opinion
 ---
 ![](/public/welcome.jpg)
