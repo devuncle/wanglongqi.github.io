@@ -1,13 +1,16 @@
 ---
 author: Longqi
 comments: true
-date: 2016-02-27 00:34:08
+date: 2016-02-27 00:35:49
 layout: post
-slug: test1113
-title: Test
-categories: [System]
+slug: test112
+title: Install Rpy2 on Windows
+categories: [R]
 tags:
-- Opinion
+- R
+- Python
+- Rpy2
+- Mingw32
 ---
 
-Test
+TEST
