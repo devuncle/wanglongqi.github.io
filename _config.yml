@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         kramdown
-pygments:         true
+highlighter:         rouge
 
 # Permalinks
 permalink:        pretty
@@ -21,3 +21,4 @@ paginate:         10
 
 github:
   repo:           https://github.com/wanglongqi
+gems: [jekyll-paginate]

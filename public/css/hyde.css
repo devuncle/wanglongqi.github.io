@@ -278,3 +278,10 @@ a.sidebar-nav-item:focus {
   text-align: right;
   font-size: 0.9rem;
 }
+
+.forward{
+  font-size:0.8rem;
+  margin:0.5em auto;
+  background: #eee;
+  padding: 1em;
+}

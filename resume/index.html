@@ -1,618 +1,638 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Resume">
-  <meta name="author" content="WANG Longqi">
-  <title>WANG Longqi的简历</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/animate.min.css" rel="stylesheet"> 
-  <link href="css/font-awesome.min.css" rel="stylesheet">
-  <link href="css/lightbox.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
-  <link href="css/responsive.css" rel="stylesheet">
 
-  <!--[if lt IE 9]>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Resume">
+   <meta name="author" content="WANG Longqi">
+   <title>WANG Longqi的简历</title>
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <link href="css/animate.min.css" rel="stylesheet">
+   <link href="css/font-awesome.min.css" rel="stylesheet">
+   <link href="css/lightbox.css" rel="stylesheet">
+   <link href="css/main.css" rel="stylesheet">
+   <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
+   <link href="css/responsive.css" rel="stylesheet">
+   <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
+   <link rel="shortcut icon" href="/public/favicon.ico">
+</head>
+<!--/head-->
 
-    <link rel="shortcut icon" href="/public/favicon.ico">
-  </head><!--/head-->
-
-  <body>
-    <header id="home">
+<body>
+   <header id="home">
       <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="item active" style="background-image: url(images/slider/1.jpg)">
-            <div class="caption">
-              <h1 class="animated fadeInLeftBig">欢迎阅读您<br/><span>我的简历</span></h1>
-              <p class="animated fadeInRightBig">基本信息 - 项目经历 - 个人技能 - 其他信息</p>
-              <a data-scroll class="btn btn-start animated fadeInUpBig" href="#general-info">开始阅读</a>
+         <div class="carousel-inner">
+            <div class="item active" style="background-image: url(images/slider/1.jpg)">
+               <div class="caption">
+                  <h1 class="animated fadeInLeftBig">欢迎阅读您<br/><span>我的简历</span></h1>
+                  <p class="animated fadeInRightBig">基本信息 - 项目经历 - 个人技能 - 其他信息</p>
+                  <a data-scroll class="btn btn-start animated fadeInUpBig" href="#general-info">开始阅读</a>
+               </div>
             </div>
-          </div>
-        </div>
-        <a id="tohash" href="#general-info"><i class="fa fa-angle-down"></i></a>
-      </div><!--/#home-slider-->
+         </div>
+         <a id="tohash" href="#general-info"><i class="fa fa-angle-down"></i></a>
+      </div>
+      <!--/#home-slider-->
       <div class="main-nav">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">打开/关闭导航</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">
-              <h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1>
-            </a>                    
-          </div>
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">                 
-              <li class="scroll active"><a href="#home">主页</a></li>
-              <li class="scroll"><a href="#general-info">个人信息</a></li> 
-              <li class="scroll"><a href="#education">教育经历</a></li>                     
-              <li class="scroll"><a href="#project">项目经历</a></li>
-              <li class="scroll"><a href="#publications">专利与文献</a></li>
-              <li class="scroll"><a href="#skill">个人技能</a></li>
-              <li class="scroll"><a href="#blog">开源项目</a></li>
-              <li class="scroll"><a href="#contact">联系方式</a></li>       
-            </ul>
-          </div>
-        </div>
-      </div><!--/#main-nav-->
-    </header><!--/#home-->
-    <section id="general-info">
-      <div class="container">
-        <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-          <div class="row">
-            <div class="text-center col-sm-8 col-sm-offset-2">
-              <h2>个人信息</h2>
-              <p>您好，欢迎您的光临！我目前是一名南洋理工大学的博士生。这是我的一个简单介绍，欢迎您与我沟通和联系！</p>
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">打开/关闭导航</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="index.html">
+                  <h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1>
+               </a>
             </div>
-          </div> 
-        </div>
-        <div class="text-center our-services">
-          <div class="row">
-            <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <div class="service-icon">
-                <i class="fa fa-life-ring"></i>
-              </div>
-              <div class="service-info">
-                <h3>结构损伤检测</h3>
-                <p>我有七年损伤检测方法研究的经历，能够完成从试验设计到方法验证到原型机开发的整个流程。我参加过桥梁和轨道的损伤检测项目，详情请参见<a href="#project">项目经历</a>。</p>
-              </div>
+            <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                  <li class="scroll active"><a href="#home">主页</a></li>
+                  <li class="scroll"><a href="#general-info">个人信息</a></li>
+                  <li class="scroll"><a href="#education">教育经历</a></li>
+                  <li class="scroll"><a href="#project">项目经历</a></li>
+                  <li class="scroll"><a href="#publications">专利与文献</a></li>
+                  <li class="scroll"><a href="#skill">个人技能</a></li>
+                  <li class="scroll"><a href="#blog">开源项目</a></li>
+                  <li class="scroll"><a href="#contact">联系方式</a></li>
+               </ul>
             </div>
-            <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
-              <div class="service-icon">
-                <i class="fa fa-subway"></i>
-              </div>
-              <div class="service-info">
-                <h3>噪声与振动控制</h3>
-                <p>我参加过地铁导致的环境振动的控制项目，主持的项目提前一年结题并被评为“超额完成”。详情请参见<a href="#project">项目经历</a>。</p>
-              </div>
-            </div>
-            <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
-              <div class="service-icon">
-                <i class="fa fa-database"></i>
-              </div>
-              <div class="service-info">
-                <h3>其他内容</h3>
-                <p>我精通计算力学的理论，开发过十万行以上的计算程序，熟悉振动试验的设备及测试程序的开发，熟悉相关的信号处理方法。详情请参见<a href="#skill">个人技能</a>。</p>
-              </div>
-            </div>
-          </div>
-        </div>
+         </div>
       </div>
-    </section><!--/#general-info-->
-    <section id="education" class="parallax">
+      <!--/#main-nav-->
+   </header>
+   <!--/#home-->
+   <section id="general-info">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="education wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <h2>教育经历</h2>
-              <div class="educations">
-                <div class="row">
-                  <div class="col-sm-4">
-                    <div class="school wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
-                      <div class="school-img">
-                        <img class="img-responsive" src="images/thu.png" alt="">
-                      </div>
-                      <div class="member-info">
-                        <h3>清华大学</h3>
-                        <h4>本科</h4>
-                        <p>2004/7 ~ 2008/7 航天航空学院</p>
-                        <p>专业：工程力学与航天航空工程</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="school wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
-                      <div class="school-img">
-                        <img class="img-responsive" src="images/thu.png" alt="">
-                      </div>
-                      <div class="member-info">
-                        <h3>清华大学</h3>
-                        <h4>硕士</h4>
-                        <p>2009/7 ~ 2011/7 航天航空学院</p>
-                        <p>专业：固体力学</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="school wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
-                      <div class="school-img">
-                        <img class="img-responsive" src="images/ntu.png" alt="">
-                      </div>
-                      <div class="member-info">
-                        <h3>南洋理工大学</h3>
-                        <h4>博士</h4>
-                        <p>2013年至今 土木与环境工程系</p>
-                        <p>专业：土木工程</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>  
+         <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="row">
+               <div class="text-center col-sm-8 col-sm-offset-2">
+                  <h2>个人信息</h2>
+                  <p>您好，欢迎您的光临！我目前是一名南洋理工大学的博士生。这是我的一个简单介绍，欢迎您与我沟通和联系！</p>
+               </div>
             </div>
-          </div>
-        </div>
+         </div>
+         <div class="text-center our-services">
+            <div class="row">
+               <div class="text-center col-sm-12">
+                  <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                     <div class="service-icon">
+                        <i class="fa fa-life-ring"></i>
+                     </div>
+                     <div class="service-info">
+                        <h3>结构损伤检测</h3>
+                        <p>我有七年损伤检测方法研究的经历，能够完成从试验设计到方法验证到原型机开发的整个流程。我参加过桥梁和轨道的损伤检测项目，详情请参见<a href="#project">项目经历</a>。</p>
+                     </div>
+                  </div>
+                  <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
+                     <div class="service-icon">
+                        <i class="fa fa-subway"></i>
+                     </div>
+                     <div class="service-info">
+                        <h3>噪声与振动控制</h3>
+                        <p>我参加过地铁导致的环境振动的控制项目，主持的项目提前一年结题并被评为“超额完成”。详情请参见<a href="#project">项目经历</a>。</p>
+                     </div>
+                  </div>
+                  <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+                     <div class="service-icon">
+                        <i class="fa fa-database"></i>
+                     </div>
+                     <div class="service-info">
+                        <h3>其他内容</h3>
+                        <p>我精通计算力学的理论，开发过十万行以上的计算程序，熟悉振动试验的设备及测试程序的开发，熟悉相关的信号处理方法。详情请参见<a href="#skill">个人技能</a>。</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
-    </section><!--/#education-->
-
-    <section id="project">
+   </section>
+   <!--/#general-info-->
+   <section id="education" class="parallax">
       <div class="container">
-        <div class="row">
-          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <h2>项目经历</h2>
-            <p>这里列举了我的部分项目经历。</p>
-          </div>
-        </div> 
+         <div class="row">
+            <div class="col-sm-12">
+               <div class="education wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <h2>教育经历</h2>
+                  <div class="educations">
+                     <div class="row">
+                        <div class="col-sm-4">
+                           <div class="school wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+                              <div class="school-img">
+                                 <img class="img-responsive" src="images/thu.png" alt="">
+                              </div>
+                              <div class="member-info">
+                                 <h3>清华大学</h3>
+                                 <h4>本科</h4>
+                                 <p>2004/7 ~ 2008/7 航天航空学院</p>
+                                 <p>专业：工程力学与航天航空工程</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-sm-4">
+                           <div class="school wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+                              <div class="school-img">
+                                 <img class="img-responsive" src="images/thu.png" alt="">
+                              </div>
+                              <div class="member-info">
+                                 <h3>清华大学</h3>
+                                 <h4>硕士</h4>
+                                 <p>2009/7 ~ 2011/7 航天航空学院</p>
+                                 <p>专业：固体力学</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-sm-4">
+                           <div class="school wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+                              <div class="school-img">
+                                 <img class="img-responsive" src="images/ntu.png" alt="">
+                              </div>
+                              <div class="member-info">
+                                 <h3>南洋理工大学</h3>
+                                 <h4>博士</h4>
+                                 <p>2013年至今 土木与环境工程系</p>
+                                 <p>专业：土木工程</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--/#education-->
+   <section id="project">
+      <div class="container">
+         <div class="row">
+            <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+               <h2>项目经历</h2>
+               <p>这里列举了我的部分项目经历。</p>
+            </div>
+         </div>
       </div>
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <div class="folio-image">
-                <img class="img-responsive" src="images/portfolio/p1.png" alt="">
-              </div>
-              <div class="overlay">
-                <div class="overlay-content">
-                  <div class="overlay-text">
-                    <div class="folio-info">
-                      <h3>结构紧扣件的松脱检测方法</h3>
-                      <p>2013/07 至今</p>
-                    </div>
-                    <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="phdproj.html" ><i class="fa fa-link"></i></a></span>
-                    </div>
+         <div class="row">
+            <div class="col-sm-4">
+               <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <div class="folio-image">
+                     <img class="img-responsive" src="images/portfolio/p1.png" alt="">
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <div class="folio-image">
-                <img class="img-responsive" src="images/portfolio/p2.png" alt="">
-              </div>
-              <div class="overlay">
-                <div class="overlay-content">
-                  <div class="overlay-text">
-                    <div class="folio-info">
-                      <h3>基于移动数据的桥梁健康监测方法</h3>
-                      <p>2012/07 ~ 2013/07</p>
-                    </div>
-                    <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="p3.html" ><i class="fa fa-link"></i></a></span>
-                    </div>
+                  <div class="overlay">
+                     <div class="overlay-content">
+                        <div class="overlay-text">
+                           <div class="folio-info">
+                              <h3>结构紧扣件的松脱检测方法</h3>
+                              <p>2013/07 至今</p>
+                           </div>
+                           <div class="folio-overview">
+                              <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="phdproj.html" ><i class="fa fa-link"></i></a></span>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                </div>
-              </div>
+               </div>
             </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <div class="folio-image">
-                <img class="img-responsive" src="images/portfolio/p3.png" alt="">
-              </div>
-              <div class="overlay">
-                <div class="overlay-content">
-                  <div class="overlay-text">
-                    <div class="folio-info">
-                      <h3>基于敲击数据的大铁与高铁扣件松脱监测</h3>
-                      <p>2010/03 ~ 2011/07</p>
-                    </div>
-                    <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="p4" ><i class="fa fa-link"></i></a></span>
-                    </div>
+            <div class="col-sm-4">
+               <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <div class="folio-image">
+                     <img class="img-responsive" src="images/portfolio/p2.png" alt="">
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <div class="folio-image">
-                <img class="img-responsive" src="images/portfolio/p4.png" alt="">
-              </div>
-              <div class="overlay">
-                <div class="overlay-content">
-                  <div class="overlay-text">
-                    <div class="folio-info">
-                      <h3>基于动态数据的桥梁健康监测方法</h3>
-                      <p>2009/09 ~ 2010/08</p>
-                    </div>
-                    <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="p7" ><i class="fa fa-link"></i></a></span>
-                    </div>
+                  <div class="overlay">
+                     <div class="overlay-content">
+                        <div class="overlay-text">
+                           <div class="folio-info">
+                              <h3>基于移动数据的桥梁健康监测方法</h3>
+                              <p>2012/07 ~ 2013/07</p>
+                           </div>
+                           <div class="folio-overview">
+                              <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="p3.html" ><i class="fa fa-link"></i></a></span>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                </div>
-              </div>
+               </div>
             </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <div class="folio-image">
-                <img class="img-responsive" src="images/portfolio/p5.png" alt="">
-              </div>
-              <div class="overlay">
-                <div class="overlay-content">
-                  <div class="overlay-text">
-                    <div class="folio-info">
-                      <h3>国标JB4732数据逼近程序DataY</h3>
-                      <p>2008/04 ~ 2008/07</p>
-                    </div>
-                    <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="p9" ><i class="fa fa-link"></i></a></span>
-                    </div>
+            <div class="col-sm-4">
+               <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <div class="folio-image">
+                     <img class="img-responsive" src="images/portfolio/p3.png" alt="">
                   </div>
-                </div>
-              </div>
+                  <div class="overlay">
+                     <div class="overlay-content">
+                        <div class="overlay-text">
+                           <div class="folio-info">
+                              <h3>基于敲击数据的大铁与高铁扣件松脱监测</h3>
+                              <p>2010/03 ~ 2011/07</p>
+                           </div>
+                           <div class="folio-overview">
+                              <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="p4" ><i class="fa fa-link"></i></a></span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-          </div>                 
-        </div>
+            <div class="col-sm-4">
+               <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <div class="folio-image">
+                     <img class="img-responsive" src="images/portfolio/p4.png" alt="">
+                  </div>
+                  <div class="overlay">
+                     <div class="overlay-content">
+                        <div class="overlay-text">
+                           <div class="folio-info">
+                              <h3>基于动态数据的桥梁健康监测方法</h3>
+                              <p>2009/09 ~ 2010/08</p>
+                           </div>
+                           <div class="folio-overview">
+                              <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="p7" ><i class="fa fa-link"></i></a></span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-4">
+               <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <div class="folio-image">
+                     <img class="img-responsive" src="images/portfolio/p5.png" alt="">
+                  </div>
+                  <div class="overlay">
+                     <div class="overlay-content">
+                        <div class="overlay-text">
+                           <div class="folio-info">
+                              <h3>国标JB4732数据逼近程序DataY</h3>
+                              <p>2008/04 ~ 2008/07</p>
+                           </div>
+                           <div class="folio-overview">
+                              <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="p9" ><i class="fa fa-link"></i></a></span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
       <div id="project-single-wrap">
-        <div id="project-single">
-        </div>
-      </div><!-- /#project-single-wrap -->
-    </section><!--/#project-->
-    <section id="publications">
-      <div class="container">
-        <div class="row">
-          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
-            <h2>发表文献及专利</h2>
-          </div>
-        </div>
-        <div class="text-center our-publications">
-          <div class="row">
-            <div class="col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <a class="pub-read-more" href="#" data-single_url="publications.html" >
-                <div class="publication-icon">
-                  <i class="fa fa-book" style="color:white;"></i>
-                </div>
-              </a>
-              <div class="service-info">
-                <h3><a class="pub-read-more" href="#" data-single_url="publications.html" ><i class="fa fa-link">文章列表</i></a></h3>
-                <p>该部分包括已发表和计划发表的文章（已注明）。</p>
-              </div>
-            </div>
-            <div class="col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <a class="pub-read-more" href="#" data-single_url="patents.html" >
-                <div class="publication-icon">
-                  <i class="fa fa-rocket"></i>
-                </div>
-              </a>
-              <div class="service-info">
-                <h3><a class="pub-read-more" href="#" data-single_url="patents.html" ><i class="fa fa-link">专利列表</i></a></h3>
-                <p>该部分包括申请的专利列表。</p>
-              </div>
-            </div>
-          </div>
-        </div>   
-        <div id="publication-single-wrap">
-          <div id="publication-single">   
-          </div>
-        </div>     
+         <div id="project-single">
+         </div>
       </div>
-    </section><!--/#publications-->
-
-    <section id="skill" class="parallax">
+      <!-- /#project-single-wrap -->
+   </section>
+   <!--/#project-->
+   <section id="publications">
       <div class="container">
-        <div class="row">
-          <h2>个人技能</h2>
-          <div class="col-sm-4">
-            <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <p class="lead">Python</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="92">92%</div>
-                </div>
-              </div>
-              <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <p class="lead">R</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="90">90%</div>
-                </div>
-              </div>
-              <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <p class="lead">FORTRAN</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="99">99%</div>
-                </div>
-              </div>
-              <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <p class="lead">MATLAB</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="98">98%</div>
-                </div>
-              </div>
-              <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
-                <p class="lead">LabVIEW</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="92">92%</div>
-                </div>
-              </div>
-              <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
-                <p class="lead">Pro/E</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="84">84%</div>
-                </div>
-              </div>
-              <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                <p class="lead">C/C++</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="83">83%</div>
-                </div>
-              </div>
+         <div class="row">
+            <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+               <h2>发表文献及专利</h2>
             </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <p class="lead">AutoCAD/Inventor</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="93">93%</div>
-                </div>
-              </div>
-              <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <p class="lead">*nix 操作系统</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="85">85%</div>
-                </div>
-              </div>
-              <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <p class="lead">Shell 常用命令</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="92">92%</div>
-                </div>
-              </div>
-              <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <p class="lead">有限元分析软件</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="99">99%</div>
-                </div>
-              </div>
-              <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
-                <p class="lead">符号运算系统</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="90">90%</div>
-                </div>
-              </div>
-              <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
-                <p class="lead">动力学测试</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="100">100%</div>
-                </div>
-              </div>
-              <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                <p class="lead">模态测试</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="98">98%</div>
-                </div>
-              </div>
+         </div>
+         <div class="text-center our-publications">
+            <div class="row">
+               <div class="col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <a class="pub-read-more" href="#" data-single_url="publications.html">
+                     <div class="publication-icon">
+                        <i class="fa fa-book" style="color:white;"></i>
+                     </div>
+                  </a>
+                  <div class="service-info">
+                     <h3><a class="pub-read-more" href="#" data-single_url="publications.html" ><i class="fa fa-link">文章列表</i></a></h3>
+                     <p>该部分包括已发表和计划发表的文章（已注明）。</p>
+                  </div>
+               </div>
+               <div class="col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <a class="pub-read-more" href="#" data-single_url="patents.html">
+                     <div class="publication-icon">
+                        <i class="fa fa-rocket"></i>
+                     </div>
+                  </a>
+                  <div class="service-info">
+                     <h3><a class="pub-read-more" href="#" data-single_url="patents.html" ><i class="fa fa-link">专利列表</i></a></h3>
+                     <p>该部分包括申请的专利列表。</p>
+                  </div>
+               </div>
             </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <p class="lead">试验平台设计</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="95">95%</div>
-                </div>
-              </div>
-              <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <p class="lead">数值算法</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="99">99%</div>
-                </div>
-              </div>
-              <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <p class="lead">信号处理</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="94">94%</div>
-                </div>
-              </div>
-              <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <p class="lead">时频分析</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="98">98%</div>
-                </div>
-              </div>
-              <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
-                <p class="lead">图像处理</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="84">84%</div>
-                </div>
-              </div>
-              <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
-                <p class="lead">机器学习</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="83">83%</div>
-                </div>
-              </div>
-              <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                <p class="lead">特征提取</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="90">90%</div>
-                </div>
-              </div>
+         </div>
+         <div id="publication-single-wrap">
+            <div id="publication-single">
             </div>
-          </div>                 
-        </div>
+         </div>
       </div>
-    </section><!--/#skill-->
-
-    <section id="blog">
+   </section>
+   <!--/#publications-->
+   <section id="skill" class="parallax">
       <div class="container">
-        <div class="row">
-          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
-            <h2>开源项目</h2>
-            <p>以下是我编写的一些开源的程序项目。</p>
-          </div>
-        </div>
-        <div class="blog-posts">
-          <div class="row">
-            <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-              <div class="post-thumb">
-                <a href="/WriteTeX/"><img class="img-responsive" src="//github.com/wanglongqi/WriteTeX/raw/master/writetex.png" alt=""></a> 
-                <div class="post-icon">
-                  <i class="fa fa-github"></i>
-                </div>
-              </div>
-              <div class="entry-header">
-                <h3>Inkscape的公式处理插件WriteTeX</h3>            
-              </div>
-              <div class="entry-content">
-                <ul>
-                  <li>一个Inkscape中插入LateX公式的插件。</li>
-                  <li>生成的公式源代码可编辑并可实时预览。</li>
-                  <li>基于Inkscape的原始插件接口，支持所有Inkscape支持的操作系统。</li>
-                </ul>
-              </div>
+         <div class="row">
+            <h2>个人技能</h2>
+            <div class="col-sm-4">
+               <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                     <p class="lead">Python</p>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="92">92%</div>
+                     </div>
+                  </div>
+                  <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                     <p class="lead">R</p>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="90">90%</div>
+                     </div>
+                  </div>
+                  <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                     <p class="lead">FORTRAN</p>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="99">99%</div>
+                     </div>
+                  </div>
+                  <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                     <p class="lead">MATLAB</p>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="98">98%</div>
+                     </div>
+                  </div>
+                  <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
+                     <p class="lead">LabVIEW</p>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="92">92%</div>
+                     </div>
+                  </div>
+                  <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+                     <p class="lead">Pro/E</p>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="84">84%</div>
+                     </div>
+                  </div>
+                  <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                     <p class="lead">C/C++</p>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="83">83%</div>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-              <div class="post-thumb">
-                <a href="/BatchRun/"><img class="img-responsive" src="images/batchrun.svg" alt=""></a> 
-                <div class="post-icon">
-                  <i class="fa fa-github"></i>
-                </div>
-              </div>
-              <div class="entry-header">
-                <h3>充分利用多核CPU计算能力的BatchRun程序</h3>            
-              </div>
-              <div class="entry-content">
-                <ul>
-                  <li>一个使用多线程计算的简单任务管理程序，可充分利用多核CPU的计算能力。</li>
-                  <li>程序仅依赖Python自带的subprocess模块。</li>
-                  <li>程序特别针对仿真计算任务设计，较通用程序更适用于科学计算任务管理。
-                  </li>
-                </ul>
-              </div>
-            </div>                  
-
-            <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-              <div class="post-thumb">
-                <a href="/uniUnit/"><img class="img-responsive" src="//wanglongqi.github.io/public/images/uniUnit.png" alt=""></a> 
-                <div class="post-icon">
-                  <i class="fa fa-github"></i>
-                </div>
-              </div>
-              <div class="entry-header">
-                <h3>统一计算单位的uniUnit程序</h3>            
-              </div>
-              <div class="entry-content">
-                <ul>
-                  <li>一个解决单位系统不一致问题的程序包。</li>
-                  <li>实现了自动将物理量统一至相同基本单位系统的功能。</li>
-                  <li>可用于避免物理量单位换算错误导致的各类计算问题。</li>
-                </ul>
-              </div>
-            </div>                  
-          </div>              
-          <div class="load-more wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
-            <a href="//github.com/wanglongqi?tab=repositories" class="btn-loadmore"><i class="fa fa-repeat"></i> 查看更多</a>
-          </div>                
-        </div>
+            <div class="col-sm-4">
+               <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                     <p class="lead">AutoCAD/Inventor</p>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="93">93%</div>
+                     </div>
+                  </div>
+                  <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                     <p class="lead">*nix 操作系统</p>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="85">85%</div>
+                     </div>
+                  </div>
+                  <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                     <p class="lead">Shell 常用命令</p>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="92">92%</div>
+                     </div>
+                  </div>
+                  <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                     <p class="lead">有限元分析软件</p>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="99">99%</div>
+                     </div>
+                  </div>
+                  <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
+                     <p class="lead">符号运算系统</p>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="90">90%</div>
+                     </div>
+                  </div>
+                  <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+                     <p class="lead">动力学测试</p>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="100">100%</div>
+                     </div>
+                  </div>
+                  <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                     <p class="lead">模态测试</p>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="98">98%</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-4">
+               <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                     <p class="lead">试验平台设计</p>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="95">95%</div>
+                     </div>
+                  </div>
+                  <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                     <p class="lead">数值算法</p>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="99">99%</div>
+                     </div>
+                  </div>
+                  <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                     <p class="lead">信号处理</p>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="94">94%</div>
+                     </div>
+                  </div>
+                  <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                     <p class="lead">时频分析</p>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="98">98%</div>
+                     </div>
+                  </div>
+                  <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
+                     <p class="lead">图像处理</p>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="84">84%</div>
+                     </div>
+                  </div>
+                  <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+                     <p class="lead">机器学习</p>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="83">83%</div>
+                     </div>
+                  </div>
+                  <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                     <p class="lead">特征提取</p>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="90">90%</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
-    </section><!--/#blog-->
-
-    <section id="contact">
+   </section>
+   <!--/#skill-->
+   <section id="blog">
+      <div class="container">
+         <div class="row">
+            <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+               <h2>开源项目</h2>
+               <p>以下是我编写的一些开源的程序项目。</p>
+            </div>
+         </div>
+         <div class="blog-posts">
+            <div class="row">
+               <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                  <div class="post-thumb">
+                     <a href="/WriteTeX/"><img class="img-responsive" src="//github.com/wanglongqi/WriteTeX/raw/master/writetex.png" alt=""></a>
+                     <div class="post-icon">
+                        <i class="fa fa-github"></i>
+                     </div>
+                  </div>
+                  <div class="entry-header">
+                     <h3>Inkscape的公式处理插件WriteTeX</h3>
+                  </div>
+                  <div class="entry-content">
+                     <ul>
+                        <li>一个Inkscape中插入LateX公式的插件。</li>
+                        <li>生成的公式源代码可编辑并可实时预览。</li>
+                        <li>基于Inkscape的原始插件接口，支持所有Inkscape支持的操作系统。</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                  <div class="post-thumb">
+                     <a href="/BatchRun/"><img class="img-responsive" src="images/batchrun.svg" alt=""></a>
+                     <div class="post-icon">
+                        <i class="fa fa-github"></i>
+                     </div>
+                  </div>
+                  <div class="entry-header">
+                     <h3>充分利用多核CPU计算能力的BatchRun程序</h3>
+                  </div>
+                  <div class="entry-content">
+                     <ul>
+                        <li>一个使用多线程计算的简单任务管理程序，可充分利用多核CPU的计算能力。</li>
+                        <li>程序仅依赖Python自带的subprocess模块。</li>
+                        <li>程序特别针对仿真计算任务设计，较通用程序更适用于科学计算任务管理。
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                  <div class="post-thumb">
+                     <a href="/uniUnit/"><img class="img-responsive" src="//wanglongqi.github.io/public/images/uniUnit.png" alt=""></a>
+                     <div class="post-icon">
+                        <i class="fa fa-github"></i>
+                     </div>
+                  </div>
+                  <div class="entry-header">
+                     <h3>统一计算单位的uniUnit程序</h3>
+                  </div>
+                  <div class="entry-content">
+                     <ul>
+                        <li>一个解决单位系统不一致问题的程序包。</li>
+                        <li>实现了自动将物理量统一至相同基本单位系统的功能。</li>
+                        <li>可用于避免物理量单位换算错误导致的各类计算问题。</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="load-more wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+               <a href="//github.com/wanglongqi?tab=repositories" class="btn-loadmore"><i class="fa fa-repeat"></i> 查看更多</a>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--/#blog-->
+   <section id="contact">
       <div id="contact-us" class="parallax">
-        <div class="container">
-          <div class="row">
-            <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <h2>与我联系</h2>
-              <p>欢迎大家与我联系：<i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:iqgnol@gmail.com" style="color:white"> iqgnol@gmail.com</a></p>
+         <div class="container">
+            <div class="row">
+               <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <h2>与我联系</h2>
+                  <p>欢迎大家与我联系：<i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:iqgnol@gmail.com" style="color:white"> iqgnol@gmail.com</a></p>
+               </div>
             </div>
-          </div>
-        </div>
-      </div>        
-    </section><!--/#contact-->
-    <footer id="footer">
+         </div>
+      </div>
+   </section>
+   <!--/#contact-->
+   <footer id="footer">
       <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-        <div class="container text-center">
-          <div class="footer-logo">
-            <a href="index.html"><img class="img-responsive" src="images/logo.png" alt=""></a>
-          </div>
-        </div>
+         <div class="container text-center">
+            <div class="footer-logo">
+               <a href="index.html"><img class="img-responsive" src="images/logo.png" alt=""></a>
+            </div>
+         </div>
       </div>
       <div class="footer-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6">
-              <p>&copy; 2016 WANG Longqi.</p>
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-6">
+                  <p>&copy; 2016 WANG Longqi.</p>
+               </div>
+               <div class="col-sm-6">
+                  <p class="pull-right">Theme Based on Oxygen from<a href="http://www.themeum.com/">Themeum</a></p>
+               </div>
             </div>
-            <div class="col-sm-6">
-              <p class="pull-right">Theme Based on Oxygen from<a href="http://www.themeum.com/">Themeum</a></p>
-            </div>
-          </div>
-        </div>
+         </div>
       </div>
-    </footer>
+   </footer>
+   <script type="text/javascript" src="js/jquery.js"></script>
+   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+   <script type="text/javascript" src="js/wow.min.js"></script>
+   <script type="text/javascript" src="js/mousescroll.js"></script>
+   <script type="text/javascript" src="js/smoothscroll.js"></script>
+   <script type="text/javascript" src="js/jquery.countTo.js"></script>
+   <script type="text/javascript" src="js/lightbox.min.js"></script>
+   <script type="text/javascript" src="js/main.js"></script>
+   <script>
+   (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+         (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+         m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+   })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.inview.min.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/mousescroll.js"></script>
-    <script type="text/javascript" src="js/smoothscroll.js"></script>
-    <script type="text/javascript" src="js/jquery.countTo.js"></script>
-    <script type="text/javascript" src="js/lightbox.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-6527820-1', 'auto');
-      ga('require', 'displayfeatures');
-      ga('require', 'linkid', 'linkid.js');
-      ga('send', 'pageview');
-    </script>
-    <a title="" href="http://clicky.com/100788619"></a><img alt="" src="//static.getclicky.com/media/links/badge.gif" border="0" />
-    <script src="//static.getclicky.com/js" type="text/javascript"></script>
-    <script type="text/javascript">try{ clicky.init(100788619); }catch(e){}</script>
-    <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100788619ns.gif" /></p></noscript>
-    <script>
-      function is_mobileQQ() {
-        var ua = navigator.userAgent.toLowerCase();
-        if (ua.match(/micromessenger/)) {
-          return true;
-        } else {
-          return false;
-        }
+   ga('create', 'UA-6527820-1', 'auto');
+   ga('require', 'displayfeatures');
+   ga('require', 'linkid', 'linkid.js');
+   ga('send', 'pageview');
+   </script>
+   <a title="" href="http://clicky.com/100788619"></a><img alt="" src="//static.getclicky.com/media/links/badge.gif" border="0" />
+   <script src="//static.getclicky.com/js" type="text/javascript"></script>
+   <script type="text/javascript">
+   try {
+      clicky.init(100788619);
+   } catch (e) {}
+   </script>
+   <noscript>
+      <p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100788619ns.gif" /></p>
+   </noscript>
+   <script>
+   function is_mobileQQ() {
+      var ua = navigator.userAgent.toLowerCase();
+      if (ua.match(/micromessenger/)) {
+         return true;
+      } else {
+         return false;
       }
-      $(document).ready(function (){
-       if(is_mobileQQ()){
-          $("body").html(" <p style='text-align:center; font-size:18px; margin:20px auto'>微信内置浏览器效率低下<br/>请按下图步骤使用自带浏览器查看该网页 <br/><img src='images/wx.png' style='margin: 20px auto'/></p>");
-        }
-      })
-    </script>
+   }
+   $(document).ready(function() {
+      if (is_mobileQQ()) {
+         $("body").html(" <p style='text-align:center; font-size:18px; margin:20px auto'>微信内置浏览器效率低下<br/>请按下图步骤使用自带浏览器查看该网页 <br/><img src='images/wx.png' style='margin: 20px auto'/></p>");
+      }
+   })
+   </script>
+</body>
 
-  </body>
-  </html>
+</html>
