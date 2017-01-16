@@ -14,7 +14,7 @@ tags:
 -  API
 ---
 <div class="forward">本文转载自新网站同名文章：<a href="https://whyhow.github.io/2016/04/07/ltaapi.html">https://whyhow.github.io/2016/04/07/ltaapi.html</a></div>
-昨天的文章提到了[LTA官方的API的JSON接口]({% post_url 2016-04-05-ltaapi %})，今天增强了一下API的功能，定义了JSON版本API的增强版。接口如下：
+昨天的文章提到了[LTA官方的API的JSON接口]({% post_url whyhow/2016-04-05-ltaapi %})，今天增强了一下API的功能，定义了JSON版本API的增强版。接口如下：
 
 `https://bt201501.appspot.com/bus?stop=[站号]&bus=[公交车号]&pretty=[pretty?]`
 
