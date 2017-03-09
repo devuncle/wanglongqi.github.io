@@ -40,12 +40,10 @@ tags:
 然后剩下的就是显示了，这个大家见多了，R里也有自己的实现，主要是基于base的`wordcloud`库，和基于htmlwidge的`wordcloud2`。既然我是在网站上展示，那我就默默的选用了`wordcloud2`，所以整体的实现就很简单了，下面是除了数据导入之外的所有代码（不要问我为啥不用循环，Rmarkdown捕获循环输出的问题还没解决）：
 
 <script src="/public/js/jquery-1.11.3/jquery.min.js"></script>
-<link href="/public/js/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="/public/js/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="/public/js/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="/public/js/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="/public/js/navigation-1.1/tabsets.js"></script>
-<link href="/public/js/highlightjs-1.1/default.css" rel="stylesheet" />
 <script src="/public/js/highlightjs-1.1/highlight.js"></script>
 <script src="/public/js/htmlwidgets-0.8/htmlwidgets.js"></script>
 <link href="/public/js/wordcloud2-0.0.1/wordcloud.css" rel="stylesheet" />
@@ -111,7 +109,6 @@ wdcloud(1)</code></pre>
 <div id="htmlwidget-7d7694684a126cbd6143" style="width:672px;height:480px;" class="wordcloud2 html-widget"></div>
 <script type="application/json" data-for="htmlwidget-7d7694684a126cbd6143">{"x":{"word":["发展","改革","推进","建设","经济","加快","加强","推动","创新","企业","全面","政府","完善","中国","促进","就业","实施","提高","深化","支持","政策","服务","工作","国家","人民","我们","增长","坚持","社会","深入","今年","群众","继续","扩大","制度","地区","农村","地方","机制","稳定","保障","坚决","安全","持续","合作","实现","重点","保护","领域","市场","试点","投资","消费","治理","产能","加大","教育","维护","问题","综合","改善","国际","基本","结构","落实","生态","我国","以上","有效","国内","降低","力度","增加","制定","保持","必须","标准","创业","更加","积极","民生","目标","农业","强化","升级","生产","提升","下降","增强","战略","作用","供给","管理","核心","取得","收费","依法","引导","重要","不断"],"freq":[115,66,63,51,51,41,40,40,35,35,35,35,33,32,31,31,30,30,28,28,27,26,26,26,26,25,25,24,24,24,23,23,22,22,22,21,20,19,19,19,18,18,17,17,17,17,17,16,16,16,16,16,16,16,15,15,15,15,15,15,14,14,14,14,14,14,14,14,14,13,13,13,13,13,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,11,11,11,11,11,11,11,11,10],"fontFamily":"Segoe UI","fontWeight":"bold","color":"random-dark","minSize":0,"weightFactor":1.56521739130435,"backgroundColor":"white","gridSize":0,"minRotation":-0.785398163397448,"maxRotation":0.785398163397448,"shuffle":true,"rotateRatio":0.4,"shape":"circle","ellipticity":0.65,"figBase64":null,"hover":null},"evals":[],"jsHooks":[]}</script>
 
-</div>
 <p> 然后的分析就交给大家了，据我的观察我看到最多的就是发展了，所以就有了本文的题目。</p>
 
 
