@@ -84,7 +84,7 @@ print(p)</code></pre>
 print(p)</code></pre>
 <p><img src="/public/images/dplyrpar/unnamed-chunk-5-1.png" width="768" /></p>
 <p>Generally, the flows have quite different patterns between weekdays and weekends. However, the longtime trend also plays important role in the flow.</p>
-<p>Let’s make some predictions here:</p>
+<p>Let's make some predictions here:</p>
 <pre class="r"><code>library(forecast)
 library(xts)
 to.ts &lt;- function (x) {
@@ -116,7 +116,7 @@ autoplot(forecast(stlm(tmp))) + theme_bw()</code></pre>
 </div>
 <div id="a-workable-solution" class="section level2">
 <h2>A workable solution</h2>
-<p><code>ets</code> is a fast algorithm, and its performance is quite good. Therefore, let’s assume we want to apply <code>ets</code> to the whole dataset. The easiest way is to use some functions from <code>dplyr</code>. <code>summarise</code> is a good candidate, but it only able to capture functions with only one return value, such as <code>mean</code> and <code>median</code>:</p>
+<p><code>ets</code> is a fast algorithm, and its performance is quite good. Therefore, let's assume we want to apply <code>ets</code> to the whole dataset. The easiest way is to use some functions from <code>dplyr</code>. <code>summarise</code> is a good candidate, but it only able to capture functions with only one return value, such as <code>mean</code> and <code>median</code>:</p>
 <pre class="r"><code>tc2017 %&gt;% group_by(shop_id) %&gt;%
   summarise(mean(nb_pay),median(nb_pay)) </code></pre>
 <pre><code>## # A tibble: 2,000 × 3
@@ -183,7 +183,7 @@ autoplot(forecast(stlm(tmp))) + theme_bw()</code></pre>
 forecast.by.ets &lt;- function(df){
   forecast(ets(to.ts(df)),14)$mean
 }</code></pre>
-<p>Let’s test this function:</p>
+<p>Let's test this function:</p>
 <pre class="r"><code>forecast.by.ets(tc2017%&gt;%filter(shop_id==1))</code></pre>
 <pre><code>## Time Series:
 ## Start = c(56, 3) 
@@ -241,4 +241,3 @@ cluster_assign_value(cluster,&quot;to.ts&quot;,to.ts)</code></pre>
 devtools::install_github(&quot;hadley/multidplyr&quot;)</code></pre>
 </div>
 
-</div>
