@@ -11,7 +11,6 @@ tags:
 -  Statistics
 -  Tutorial
 ---
-
 <script src="/public/js/navigation-1.1/tabsets.js"></script>
 <link href="/public/js/highlightjs-1.1/default.css" rel="stylesheet" />
 <script src="/public/js/highlightjs-1.1/highlight.js"></script>
@@ -23,7 +22,6 @@ tags:
 <link href="/public/js/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet" />
 <script src="/public/js/nouislider-7.0.10/jquery.nouislider.min.js"></script>
 <script src="/public/js/selectize-0.12.0/selectize.min.js"></script>
-
 <div class="section level2">
 <h2>背景</h2>
 <p>今天又看到有人吐槽印度是强奸之国，想想上次这事发酵的时候到现在已经快半年了，当时很多很有“知名度”的节目也是吐槽一地。其实我和乙寅当时就很奇怪印度官员既然已经给出了一组明确的数据，为什么没有人去考察相关的数据，而是直接就上来一顿嘲讽。下面让我们来回顾一下这个事件吧。在网上随便都能搜到那个事件的导火索，比如<a href="http://www.ettoday.net/news/20161124/816863.htm">印度官員：性侵案數量其實全球前四低</a>,<a href="http://news.ltn.com.tw/news/world/breakingnews/1896058">印度官員：印度強姦案數是世界最低4個國家之一</a>或者来自搜狐的<a href="http://news.sohu.com/20161123/n473937606.shtml">印度女部长：印度属于强奸案最低4个国家之一</a>，大致内容是：</p>
